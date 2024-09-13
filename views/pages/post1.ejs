@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <%- include('../partials/header.ejs') %>
+      <h1><%= post.title %></h1>
+
+      <p>
+        Learning JavaScript was a challenging yet rewarding experience for me.
+        At first, I was overwhelmed by the vast concepts like variables,
+        functions, and loops. The most difficult part was understanding
+        asynchronous programming with callbacks, promises, and async/await,
+        which felt like juggling multiple tasks. Additionally, grasping
+        JavaScript's scope, closures, and the tricky this keyword often led to
+        confusion. Manipulating the DOM to interact with HTML elements
+        dynamically required a lot of practice and troubleshooting. Finally,
+        staying up-to-date with the rapidly evolving ecosystem of frameworks and
+        language updates was an ongoing struggle. Despite these difficulties, I
+        persevered by breaking down complex topics, engaging with tutorials, and
+        practicing small projects. Each hurdle became a learning opportunity,
+        and over time, I gained confidence in using JavaScript effectively.
+      </p>
+
+      <%- include('../partials/footer.ejs') %>
+    </div>
+  </body>
+</html>

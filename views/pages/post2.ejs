@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Mern Stack</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <%- include('../partials/header.ejs') %>
+      <h1><%= post.title %></h1>
+
+      <p>
+        Learning the MERN stack has been a game-changer for me in web
+        development. The biggest advantage is using JavaScript throughout, from
+        the front-end with React to the back-end with Node.js and Express.js,
+        making the development process more seamless. Node.js offers fast,
+        scalable back-end services, while React's component-based structure and
+        Virtual DOM allow for building dynamic, responsive user interfaces.
+        MongoDB's flexible, schema-less database design makes adapting to
+        project changes easier. Plus, the open-source nature of the MERN stack
+        provides strong community support and access to valuable resources.
+        Overall, it’s an efficient and powerful solution for full-stack
+        development.
+      </p>
+
+      <%- include('../partials/footer.ejs') %>
+    </div>
+  </body>
+</html>
